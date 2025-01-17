@@ -1,0 +1,94 @@
+/* General Styling */
+body {
+    background-color: #2C2F33;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background: linear-gradient(315deg, rgba(0,210,255,1) 0%, rgba(0,255,184,1) 100%);
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.headerh1 {
+    color: white;
+    font-size: 2.5rem;
+}
+
+/* Welcome Section */
+.welcome, .memes, .today, .feedback {
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #23272A;
+}
+
+.welcomeH1, .memesH1, .todayH1, .feedbackH1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+/* Memes Section */
+.memeList {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+.memeList li {
+    margin: 5px 0;
+    font-size: 1.2rem;
+}
+
+/* Feedback Form */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form input, form textarea, form button {
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    width: 80%;
+}
+
+form button {
+    background-color: #00D2FF;
+    color: white;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #00FFB8;
+}
+.memeImage {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+    border-radius: 10px;
+}
+.coded-by-adam {
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+    background-color: rgba(0, 0, 0, 0.5); /* Black with 50% transparency */
+    color: white;
+    font-size: 12px; /* Small text */
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-family: "Poppins", sans-serif; /* Optional: Matches your site's font */
+    z-index: 1000; /* Ensures it stays on top of other elements */
+}
